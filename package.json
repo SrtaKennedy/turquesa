@@ -1,0 +1,29 @@
+{
+  "name": "turquesa",
+  "displayName": "turquesa",
+  "description": "O turquesa, azul-turquesa ou azul-tofani é uma cor terciária, esverdeada",
+  "version": "0.0.1",
+  "publisher": "srtakennedy",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "srtakennedy",
+        "label": "Turquoise",
+        "uiTheme": "vs-dark",
+        "path": "./themes/turquesa-bege-color-theme.json"
+      }
+    ]
+  },
+  "icon": "flor-turquesa.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microsoft/vscode.git"
+  }
+}
